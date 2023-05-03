@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  font-family: "Sora", sans-serif;
+}
+/* common */
+.container {
+    width: 1170px;
+    max-width: calc(100% - 48px)
+}
+:root {
+  --header-bg: #10375c;
+}
+.header {
+  min-height: 100vh;
+  background: var(--header-bg);
+}

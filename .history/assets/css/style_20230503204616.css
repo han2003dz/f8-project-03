@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  font-family: "Sora", sans-serif;
+}
+/* common */
+.container {
+  width: 1170px;
+  max-width: calc(100% - 48px);
+  margin: 0 auto;
+}
+:root {
+  --header-bg: #10375c;
+}
+/* header */
+.header {
+  min-height: 100vh;
+  background: var(--header-bg);
+}
+.logo {
+  font-size: 1em;
+}
+.logo__circle::before,
+.logo__circle::after{
+    display: inline-block;
+    content: "";
+    border-radius: 50%
+
+}

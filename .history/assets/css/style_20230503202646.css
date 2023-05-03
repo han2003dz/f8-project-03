@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  font-family: 'Sora', sans-serif;
+}
+:root{
+    --header-bg: #10375C;
+}
+.header{
+    min-height: 100vh;
+    background: he;
+}
