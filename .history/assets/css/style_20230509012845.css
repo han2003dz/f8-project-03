@@ -637,7 +637,7 @@ a {
 }
 /* footer */
 .footer {
-  padding-top: 100px;
+  padding: 100px 0;
   background: var(--header-bg);
   font-family: "Open Sans", sans-serif;
 }
@@ -688,12 +688,6 @@ a {
   background: #fff;
   color: #2e80ce;
 }
-.footer__social-icon:hover{
-  color: #fff;
-  background: #2e80ce;
-  transition: 0.5s;
-  box-shadow: rgba(6, 203, 141, 0.605) 0px 22px 70px 4px;
-}
 #email {
   border: 1px solid #406181;
   padding: 0 10px 0 10px;
@@ -724,13 +718,6 @@ a {
   /* identical to box height, or 186% */
   color: #9ca8b1;
 }
-.copyright {
-  border-top: 1px solid #406181;
-  padding: 28px 0 42px 0;
-  font-weight: 400;
-  font-size: 1.4rem;
-  line-height: 1.86;
-  /* identical to box height, or 186% */
-  text-align: center;
-  color: #aab3ba;
+.copyright{
+  flex
 }

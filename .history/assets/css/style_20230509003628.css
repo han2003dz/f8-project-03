@@ -6,7 +6,7 @@ html {
 }
 body {
   font-size: 1.6rem;
-
+  
   font-family: "Sora", sans-serif;
 }
 /* common */
@@ -637,100 +637,11 @@ a {
 }
 /* footer */
 .footer {
-  padding-top: 100px;
+  padding: 100px 0;
   background: var(--header-bg);
   font-family: "Open Sans", sans-serif;
 }
-.footer__row {
+.footer__row{
   display: grid;
-  grid-template-columns: 1fr 0.4fr 0.4fr 1fr;
-  column-gap: 78px;
-}
-.footer__heading {
-  font-weight: 600;
-  color: #ffffff;
-}
-.footer__desc {
-  margin: 20px 0 10px 0;
-  font-size: 1.6rem;
-  line-height: 1.75;
-  /* or 175% */
-  color: #a9b3bb;
-}
-.footer__list {
-  margin-bottom: 28px;
-}
-.footer__link {
-  font-weight: 400;
-  font-size: 1.4rem;
-  line-height: 1.86;
-  color: #a9b3bb;
-  white-space: nowrap;
-}
-.footer__heading {
-  margin-bottom: 20px;
-}
-.footer__item {
-  margin-bottom: 10px;
-}
-.footer__social {
-  display: flex;
-  column-gap: 10px;
-  margin-bottom: 28px;
-}
-.footer__social-icon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
-  background: #fff;
-  color: #2e80ce;
-}
-.footer__social-icon:hover{
-  color: #fff;
-  background: #2e80ce;
-  transition: 0.5s;
-  box-shadow: rgba(6, 203, 141, 0.605) 0px 22px 70px 4px;
-}
-#email {
-  border: 1px solid #406181;
-  padding: 0 10px 0 10px;
-  border-radius: 4px;
-  background: transparent;
-  color: #fff;
-  min-width: 212px;
-  height: 46px;
-  outline: none;
-}
-.footer__action {
-  margin-top: 10px;
-  display: flex;
-  column-gap: 12px;
-}
-.footer__submit {
-  display: flex;
-  align-items: center;
-  min-width: 108px;
-  height: 46px;
-  border-radius: 4px;
-  font-size: 1.4rem;
-}
-.footer__form-input::placeholder {
-  font-weight: 400;
-  font-size: 1.4rem;
-  line-height: 1.86;
-  /* identical to box height, or 186% */
-  color: #9ca8b1;
-}
-.copyright {
-  border-top: 1px solid #406181;
-  padding: 28px 0 42px 0;
-  font-weight: 400;
-  font-size: 1.4rem;
-  line-height: 1.86;
-  /* identical to box height, or 186% */
-  text-align: center;
-  color: #aab3ba;
+
 }

@@ -692,7 +692,7 @@ a {
   color: #fff;
   background: #2e80ce;
   transition: 0.5s;
-  box-shadow: rgba(6, 203, 141, 0.605) 0px 22px 70px 4px;
+  box-shadow: rgba(34, 85, 224, 0.605) 0px 22px 70px 4px;
 }
 #email {
   border: 1px solid #406181;
