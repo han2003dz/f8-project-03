@@ -12,9 +12,9 @@ document.body.addEventListener("click", function(event){
         const modal = event.target.parentNode.parentNode;
         modal.parentNode.removeChild(modal);
     }else if(event.target.matches(".modal")){
-        event.target.parentNode.removeChild(event.target);
+        event.target.
     }
-});
+})
 const navItems = document.querySelectorAll(".nav__link");
 function handleClickNav(event) {
   [...navItems].forEach((item) => item.classList.remove("nav__link--active"));

@@ -3,6 +3,7 @@ const tmp = `<div class="modal">
         <div class="modal-content">
             <i class="fa fa-times modal-close"></i>
         </div>
+        <h3>Hello</h3>
     </div>`;
 button.addEventListener("click", function () {
     document.body.insertAdjacentHTML("beforeend", tmp);

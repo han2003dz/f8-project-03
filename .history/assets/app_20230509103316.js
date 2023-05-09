@@ -1,20 +1,13 @@
 const button = document.querySelector(".header-action__sign-up");
-const tmp = `<div class="modal">
+button.addEventListener("click", function () {
+  const tmp = 
+    `<div class="modal">
         <div class="modal-content">
             <i class="fa fa-times modal-close"></i>
         </div>
     </div>`;
-button.addEventListener("click", function () {
-    document.body.insertAdjacentHTML("beforeend", tmp);
 });
-document.body.addEventListener("click", function(event){
-    if(event.target.matches(".modal-close")){
-        const modal = event.target.parentNode.parentNode;
-        modal.parentNode.removeChild(modal);
-    }else if(event.target.matches(".modal")){
-        event.target.parentNode.removeChild(event.target);
-    }
-});
+
 const navItems = document.querySelectorAll(".nav__link");
 function handleClickNav(event) {
   [...navItems].forEach((item) => item.classList.remove("nav__link--active"));
